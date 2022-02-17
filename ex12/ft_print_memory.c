@@ -6,7 +6,7 @@
 /*   By: yeyun <yeyun@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/14 18:23:02 by yeyun             #+#    #+#             */
-/*   Updated: 2022/02/17 17:56:24 by yeyun            ###   ########.fr       */
+/*   Updated: 2022/02/17 18:02:42 by yeyun            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,7 +78,7 @@ void	print_line(char *data)
 	write_addr(data);
 	write_contents(data);
 	write_raw(data);
-	write(1,"\n",1);
+	write(1, "\n", 1);
 }
 
 void	ft_print_memory(void *addr, unsigned int size)
